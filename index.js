@@ -18,8 +18,8 @@ function init() {
 
     canvas = document.getElementById("sineCanvas");
 
-    canvas.width = 100%;
-    canvas.height = 100%;
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
     context = canvas.getContext("2d");
     context.font = '18px sans-serif';
